@@ -4,7 +4,7 @@ date: 2019-08-03 17:43:56
 tags: English
 ---
 
-#### On your time
+## On your time
 New York is 3 hours ahead of California,   
 but it does not make California slow.   
 Someone graduated at the age of 22,   
@@ -18,7 +18,7 @@ while someone else got married.
 Obama retires at 55,   
 but Trump starts at 70.   
 Absolutely everyone in this world works based on their Time Zone.   
-<!--more-->
+
 People around you might seem to go ahead of you,
 some might seem to be behind you.   
 But everyone is running their own RACE, in their own TIME.   

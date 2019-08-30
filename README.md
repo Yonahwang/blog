@@ -3,6 +3,7 @@
 ## About me
 Hi, welcome to my blog! This is notes blog! 
 - 专注于人工智能场景落地算法工程师
+- Keep learning
 
 ## Tags
 - English

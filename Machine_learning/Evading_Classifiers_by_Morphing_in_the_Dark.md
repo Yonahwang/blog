@@ -6,8 +6,8 @@ tags: Machine learning
 
 
 
-## Evading Classifiers by Morphing in the Dark
->  `Curtis Hung Dang ->National University of Singapore`
+# Evading Classifiers by Morphing in the Dark
+>  `Curtis Hung Dang National University of Singapore`
 `CCS’17, October 30-November 3, 2017, Dallas, TX, USA`
 
 
@@ -30,13 +30,13 @@ tags: Machine learning
 - 4)	**What is the new technique?**
   * we propose an `effective hill-climbing` based evasion attack `EvadeHC`
 该解决方案会持续生成随机变形样本，`直至找到规避样本`。实证结果表明EvadeHC 在实验数据集上`获得100％的逃避率`，并且在执行成本方面`胜过基准解决方案高达80倍`，我们还将EvadeHC与逃避黑匣子分类器的最新技术进行比较，即使只能访问`检测器的二进制输出`，EvadeHC仍然`胜过以前的工作`
-![Alt text](./B4TA0YMP@L5P`A4D5`HTR.png) ![Alt text](./1525338094177.png)
+
         * Malice-flipping sample：第一个被检测器检测为良性的样本。
         * Reject-flipping sample：第一个被分类器接受的样本
         * M : 样本在测试器中的结果从恶意到良性所需经过的修改次数
         * R : 样本在检测器中的结果从拒绝到接受所需经过的修改次数
         * G = M – R
-<!--more-->
+
 > 由此可知，`当G>0，即可得到对抗样`本。当G<0，在产生的修改后的恶意样本序列中得不到对抗样本。如上图所示：b中可得到恶意样本，a不可以
 过程如下，对于一个原恶意样本：
         * （1）产生多个修改后的样本序列，得到它们的M和R值，若G>0，则停止，找到对抗样本。否则转（2）

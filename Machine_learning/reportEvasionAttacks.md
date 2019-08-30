@@ -61,7 +61,7 @@ Biggio B, Corona I, Maiorca D, et al. Evasion Attacks against Machine Learning a
 
 <center>
 
-![avatar](ea2.png)
+![avatar](./reportEvasionAttacks/ea2.png)
 </center>
 
 &emsp;而这是一个非线性的优化问题。要优化这个问题，可以使用的方法有：gradient descent, Newton’s method, BFGS, 或者 L-BFGS。
@@ -71,7 +71,7 @@ Biggio B, Corona I, Maiorca D, et al. Evasion Attacks against Machine Learning a
 
 <center>
 
-![avatar](ea2.png)
+![avatar](./reportEvasionAttacks/ea2.png)
 </center>
 
 但是在实际应用中，由于分类器目标函数的特性，这个函数可能不是凸函数，因此局部优化可能会造成攻击的失败。因此，当传统的梯度下降方法得到了一些对抗样本时，攻击者对于这个样本是否能躲开分类器的识别，是没有信心的。因此，为了增加攻击成功的可能性，提高优化效率，论文提出了一个新的目标优化问题，即是攻击者构造的攻击点应该尽可能地集中在合法输入点附近，也就是正样本密度比较大的区域。因此，给目标函数引入了一个新的成分——用一个密度估计器来预测p(x|y=-1)。加入了这个部分，可以让算法构建出来的对抗样本模仿已知的正样本的特征（也就是在特征空间上与已经有的合法的输入尽可能类似）。这个密度估计器，文中称之为kernel density estimators（KDE）。
@@ -79,7 +79,7 @@ Biggio B, Corona I, Maiorca D, et al. Evasion Attacks against Machine Learning a
 对应的公式表示如下： 
 <center>
 
-![avatar](ea1.png)
+![avatar](./reportEvasionAttacks/ea1.png)
 </center>
 
 
