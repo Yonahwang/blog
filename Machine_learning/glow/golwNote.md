@@ -68,11 +68,11 @@ GAN是无监督学习的范畴，是由生成模型和判别模型的相互博�
 ## Generative Flow
 Flow模型的多尺度结构图和每一步结构图如下：
 
-![Flow-model](../flow-mode1.png)
+![Flow-model](./flow-mode1.png)
 
 可以看到整个模型分为 (a) 和 (b)，其实 (a) 只是对 (b) 中的“step of flow”的展开。其中，（a）模型的每部分操作具体如下所示：
 
-![function](../folw-a.png)
+![function](./folw-a.png)
 
 Actnorm 层，全称为 Activation Normalization 翻译为激活标准化，整体的作用类似于批归一化，也就是对输入的数据做预处理，Actnorm 使用每个通道的标度和偏差参数执行激活的仿射变换，类似于批量标准化，初始化这些参数，使得在给定初始数据小批量的情况下，每个通道的后行为动作具有零均值和单位方差。初始化后，标度和偏差被视为与数据无关的常规可训练参数。
 
@@ -93,7 +93,7 @@ Actnorm 层，全称为 Activation Normalization 翻译为激活标准化，整�
 ## 实验
 实验的开篇是比较 Glow 和 RealNVP，反转操作上 NICE 采用反转，RealNVP 采用固定随机排列，Glow 采用可逆 1 × 1 卷积，并且耦合方式也影响实验的效果，文章比较了加性耦合层和仿射耦合层的性能差距。通过在 CIFAR-10 数据集的平均负对数似然（每维度的比特）来衡量不同操作的差距，其中所有模型都经过 K = 32 和 L = 3 的训练，实验效果如下图：
 
-![figure01](../figure01.png)
+![figure01](./figure01.png)
 可以从上图看出，Glow 采用的方法都取得了较小的平均负对数似然，效果比其他模型要好。
 
 为了验证 RealNVP 和 Glow 整体的框架下的差距，实验进一步扩展，比较了 CIFAR-10，ImageNet 和 LSUN 数据集上两者的差距，在相同预处理下，模型在所有数据集上实现了显着的改进。 
