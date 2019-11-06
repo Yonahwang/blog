@@ -2,24 +2,30 @@
 
 ## About me
 Hi, welcome to my blog! This is notes blog! 
-- 专注于人工智能场景落地算法工程师
-- Keep learning
+- 专注于人工智能场景落地的程序媛
+- A Deep and fun Web developer 
 
 ## Tags
+- Website development
 - English
 - Machine learning
 - Markdown
-- Website development
+
 
 
 
 ## Recent posts
+
+### Website development
+  - [Web-bug](./Web_bugs/web-bug.md )
+  - [JavaScript code specification](https://github.com/Yonahwang/Web-Develop-Yonah/blob/master/notes/codeSpecification.md)
+
+
 ### English
 
 - [On your time](./English/yonah01.md ) 
 
  
-
 ### Machine learning
 - [reportEvasionAttacks](./Machine_learning/reportEvasionAttacks.md ) 
 - [机器学习算法之降维](./Machine_learning/机器学习算法之降维.md ) 
@@ -28,11 +34,11 @@ Hi, welcome to my blog! This is notes blog!
 
 ### Markdown
   - [Markdown-math](./note_library/markdown-math.md)
-  - 
-### Website development
-  - [Web-bug](./Web_bugs/web-bug.md )
+  
 
 
 ## Other information
 网站链接：
+- [Yonah's web development](https://github.com/Yonahwang/Web-Develop-Yonah)
+- [前端开发项目](https://github.com/Yonahwang/Web-Develop-Yonah)
 - [凤娇娇](https://yonahwang.github.io/)

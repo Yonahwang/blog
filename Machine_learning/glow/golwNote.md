@@ -1,7 +1,7 @@
 # 《Glow : Generative Flow with Invertible 1*1 Convolutions》 Note
 
 
-- 论文下载地址：https://d4mucfpksywv.cloudfront.net/research-covers/glow/paper/glow.pdf
+- 论文下载地址：https://arxiv.org/abs/1807.03039
 - 代码地址： https://github.com/openai/glow
 
 ## Abstract
