@@ -3,7 +3,7 @@
 ## About me
 Hi, welcome to my blog! This is notes blog! 
 - 专注于人工智能场景落地的程序媛
-- A Deep and fun Web developer 
+- A fun senior web developer
 
 ## Tags
 - Website development
@@ -12,7 +12,14 @@ Hi, welcome to my blog! This is notes blog!
 - Markdown
 
 
-
+## Key results
+- >发表论文在第33次全国计算机安全学术交流会   
+  >论文题目：基于机器学习的恶意文件检 测与分类器对抗性学习研究[J] 2019    
+  论文作者：王凤娇，江纬，杨育斌，柯宗贵
+ - 《云润人工智能-王凤娇-小样本识别》
+点击观看吧：https://m.v.qq.com/play.html?vid=g0883mvh2t7
+- 《云润人工智能-AI产品及理念分享-王凤娇》
+点击观看吧：https://m.v.qq.com/play.html?vid=g0893amjkn7
 
 ## Recent posts
 
