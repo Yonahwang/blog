@@ -25,12 +25,9 @@ Hi, welcome to my blog! This is notes blog!
 
 ### Website development
   - [Web-bug](./Web_bugs/web-bug.md )
-  - [JavaScript code specification](https://github.com/Yonahwang/Web-Develop-Yonah/blob/master/notes/codeSpecification.md)
+  - [JavaScript code specification 代码规范](https://github.com/Yonahwang/Web-Develop-Yonah/blob/master/notes/codeSpecification.md)
+  - [JavaScript function call 函数调用](https://github.com/Yonahwang/Web-Develop-Yonah/blob/master/notes/functionCall.md)
 
-
-### English
-
-- [On your time](./English/yonah01.md ) 
 
  
 ### Machine learning
@@ -43,6 +40,9 @@ Hi, welcome to my blog! This is notes blog!
   - [Markdown-math](./note_library/markdown-math.md)
   
 
+### English
+
+- [On your time](./English/yonah01.md ) 
 
 ## Other information
 网站链接：
