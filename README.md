@@ -10,6 +10,7 @@ Hi, welcome to my blog! This is notes blog!
 - English
 - Machine learning
 - Markdown
+- VS code
 
 
 ## Key results
@@ -28,7 +29,9 @@ Hi, welcome to my blog! This is notes blog!
   - [JavaScript code specification 代码规范](https://github.com/Yonahwang/Web-Develop-Yonah/blob/master/notes/codeSpecification.md)
   - [JavaScript function call 函数调用](https://github.com/Yonahwang/Web-Develop-Yonah/blob/master/notes/functionCall.md)
 
-
+### Code tools
+  - [Markdown-math](./note_library/markdown-math.md)
+  - [VS code智能插件，提高工作效率](./note_library/vsCode.md)
  
 ### Machine learning
 - [reportEvasionAttacks](./Machine_learning/reportEvasionAttacks.md ) 
@@ -36,8 +39,7 @@ Hi, welcome to my blog! This is notes blog!
 - [Evading_Classifiers_by_Morphing_in_the_Dark](./Machine_learning/Evading_Classifiers_by_Morphing_in_the_Dark.md ) 
 - [Glow : Generative Flow with Invertible 1*1 Convolutions]()
 
-### Markdown
-  - [Markdown-math](./note_library/markdown-math.md)
+
   
 
 ### English
