@@ -1,7 +1,12 @@
-﻿---
-title: Evading Classifiers by Morphing in the Dark
-date: 2019-08-15 17:43:56
-tags: Machine learning
+---
+id: Machine learning
+title: 滥用恶意软件检测器中的PDF解析器
+author: 王凤娇
+author_title: AI interested
+author_url: https://github.com/Yonahwang
+author_image_url: https://avatars2.githubusercontent.com/u/30312668?s=460&u=562529144ff87bb12109a812ce43b0fc5f4b2ad1&v=4
+
+tags: [Machine learning]
 ---
 
 
@@ -23,6 +28,9 @@ tags: Machine learning
 - 2)	**Why is the problem important?**
   * Learning-based systems have been shown to be vulnerable to evasion through adversarial data manipulation.
  * 通过对抗数据操作，基于学习的系统已被证明`容易逃避`
+
+<!--truncate-->
+
 - 3)	**What is the old technique?**
      * `机器学习`：在安全环境中有很多创新应用[19,22,28]，但是[7,11,12]表明它们可能`易于逃避`,
 许伟林在NDSS2016年的会议中的一篇文章，`自动逃逸分类`器，研究了对基于学习的系统的逃避攻击，
