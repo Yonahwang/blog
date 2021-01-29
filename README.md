@@ -1,16 +1,36 @@
+<!--
+ * @Description: 
+ * @Version: 2.0
+ * @Autor: fengjiao
+ * @Date: 2019-08-29 20:19:05
+ * @LastEditors: fengjiao
+ * @LastEditTime: 2021-01-29 12:21:05
+-->
 # Yonah's blog
 
 ## About me
 Hi, welcome to my blog! This is notes blog! 
-- 专注于人工智能场景落地的程序媛
+
 - A fun senior web developer
 
+
+
 ## Tags
-- Website development
-- English
+- Web development
+- Vue   、 React
+- Python
 - Machine learning
 - Markdown
 - VS code
+- English
+
+## projects
+- 微信小程序 - 云润AI体验中心 （2019年已上线）
+- 幸运大转盘 jquery 代码实例
+- 美团手机版
+- SCC3 动态宠物狗
+-  H5 响应式页面开发
+-  医疗挂号平台
 
 
 ## Key results
@@ -25,10 +45,17 @@ Hi, welcome to my blog! This is notes blog!
 
 ## Recent posts
 
-### Website development
+### Web development Notes
   - [Web-bug](./Web_bugs/web-bug.md )
-  - [JavaScript code specification 代码规范](https://github.com/Yonahwang/Web-Develop-Yonah/blob/master/notes/codeSpecification.md)
-  - [JavaScript function call 函数调用](https://github.com/Yonahwang/Web-Develop-Yonah/blob/master/notes/functionCall.md)
+  - [JavaScript code specification 代码规范]()
+  - [JavaScript function call 函数调用]()
+  - 回调函数的应用 : callback
+  - 解决跨域问题 : crossDomain
+  - 回调地狱的解决办法 : callback_hell
+  - ES6 语法示例与笔记 : var.let.const
+  - JS中的call()方法和apply()方法用法总结
+  - 人工智能小程序从零到一设计与实现 : web-ai
+  - 浏览器工作原理
 
 ### Code tools
   - [Markdown-math](./note_library/markdown-math.md)
@@ -53,5 +80,5 @@ Hi, welcome to my blog! This is notes blog!
 
 网站链接：
 - [Yonah's web development](https://github.com/Yonahwang/Web-Develop-Yonah)
-- [前端开发项目](https://github.com/Yonahwang/Web-Develop-Yonah)
 - [凤娇娇](https://yonahwang.github.io/)
+- [云润人工智能](https://algmon.com/)
